@@ -2,27 +2,37 @@
 <html>
     <head>
         <title>Excursion</title>
+        <link href="resources/css/style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <div id="intro">
-            <h1 class="title">Discover hidden places in the world around you</h1>
-            <a href="index.html">Download Excursion (Coming soon!)</a>
+            <h1>Discover hidden places in the world around you</h1>
+            <div class="download">
+                <a href="index.html">Download Excursion (Coming soon!)</a>
+                <div id="mp4">
+                    <video class ="iphone" autoplay>
+                        <source src="resources/excursion.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
         </div>
-        <div id="mp4">
-            <video class ="iphone" autoplay>
-                <source src="resources/excursion.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
+      
         <div id="travelguide">
             <h2>Your personal travel guide</h2>
-            <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
-            <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/excursion/images/camp.jpg">
-            <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/excursion/images/phone.png">
-            <h1>Coming soon for iPone and Android</h1>
+                <p class="info">Excursion remembers places you like, and recommends new points of interest around you.</p>
+                <div class="image">
+                    <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/excursion/images/camp.jpg">
+                    <br /> 
+                    <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/excursion/images/phone.png">
+                </div>
+            <h2>Coming soon for iPone and Android</h2>
         </div>
-        <div id="closing">
-            <a href="index.html">Download Excursion (Coming soon!)</a>
+        <div class="download">
+            <a href="index.html" class="download">Download Excursion (Coming soon!)</a>
+        </div>
+        <div class="copyright">
+            <p>&#169; Excursion</p>
         </div>
     </body>
 </html>
